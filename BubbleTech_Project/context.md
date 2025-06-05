@@ -61,6 +61,14 @@ Parmi les **43 KPIs** définis initialement, une sélection pertinente a été i
 
 ---
 
+### 📌 Schéma du pipeline de traitement des données
+
+Ce schéma illustre l’ensemble du flux de traitement de la donnée mis en place chez BubbleTech, depuis la collecte brute jusqu’à la visualisation des indicateurs clés :
+
+![Schéma du pipeline de données](./pipeline_diagram.png)
+
+---
+
 ## 🧠 Compétences mobilisées
 
 ### 🔄 Traitement des données
