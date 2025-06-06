@@ -53,6 +53,7 @@ Les formulaires combinent :
 ![Formulaire – Évaluation en étoiles](./formulaire_satisfaction_eval.PNG)
 
 > 📸 Exemple : questions ouvertes et échelle d’impact
+
 ![Formulaire – Évaluation en étoiles](./expérience_participant.PNG)
 
 
