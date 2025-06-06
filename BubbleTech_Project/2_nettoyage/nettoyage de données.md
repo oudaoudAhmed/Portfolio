@@ -56,7 +56,7 @@ Un script Python personnalisé, nommé **`data_cleaning.py`**, a été développ
 
 Ce schéma résume les étapes clés de ce pipeline automatisé :
 
-![Schéma pipeline nettoyage](./Pipeline_de_nettoyage_automatique.png.png)
+![Schéma pipeline nettoyage](./Pipeline_de_nettoyage_automatique.png)
 
 ---
 
