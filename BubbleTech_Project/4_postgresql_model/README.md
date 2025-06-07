@@ -108,7 +108,7 @@ ORDER BY "Recommandation" DESC;
 
 📸 Résultat :
 
-![Résultat requête 2](./formations_mieux_perçues_globalement.PNG.PNG)
+![Résultat requête 2](./formations_mieux_perçues_globalement.PNG)
 
 ---
 
