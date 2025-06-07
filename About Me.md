@@ -25,7 +25,7 @@ Bienvenue ! Je suis Ahmed, **Data Analyst** passionné par la transformation des
 
 ## 📂 Projets
 
-### 🔷 [BubbleTech – Système décisionnel de gestion des formations](./BubbleTech_Project/context.md)
+### 🔷 [BubbleTech – Système décisionnel de gestion des formations](./BubbleTech_Project/)
 > Conception d’un pipeline automatisé de traitement des données collectées via Google Forms, stockage dans Cassandra & PostgreSQL, visualisation Power BI des indicateurs de satisfaction, engagement et partenariat.
 
 📌 Technologies : Python, Cassandra, SQL, Power BI, GitHub, Google Forms  
