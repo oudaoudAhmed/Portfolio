@@ -38,7 +38,7 @@ Le modèle intègre également :
 
 Il s’agit d’un modèle flexible qui permet d’**ajouter de nouveaux rôles** ou attributs sans modifier la table `individu`.
 
-![Modèle relationnel – Individus](./individu_role.png)
+![Modèle relationnel – Individus](image/individu_role.png)
 
 
 ### 🧾 Vue d’ensemble des tables du Volet 1
@@ -90,7 +90,7 @@ Chaque inscription est donc **personnalisée** selon le profil du participant, s
 Ce modèle permet à BubbleTech d’orienter les offres selon les besoins réels des inscrits.
 
 
-![Modèle relationnel – Formations](./inscription_formation.png)
+![Modèle relationnel – Formations](image/inscription_formation.png)
 
 
 
@@ -150,7 +150,7 @@ Par exemple, un partenariat peut :
 
 
 
-![Modèle relationnel – Partenariats](./partenaire.png)
+![Modèle relationnel – Partenariats](./image/partenaire.png)
 
 
 
