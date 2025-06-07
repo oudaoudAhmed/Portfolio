@@ -90,7 +90,7 @@ Chaque inscription est donc **personnalisée** selon le profil du participant, s
 Ce modèle permet à BubbleTech d’orienter les offres selon les besoins réels des inscrits.
 
 
-![Modèle relationnel – Formations](./image/inscription_formation.png)
+![Modèle relationnel – Formations](image/inscription_formation.png)
 
 
 
