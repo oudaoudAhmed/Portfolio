@@ -94,7 +94,6 @@ Ce modèle permet à BubbleTech d’orienter les offres selon les besoins réels
 
 
 
-
 ### 🧾 Vue d’ensemble des tables du Volet 2
 
 | Table                   | Description                                                        | Liée à                        |
