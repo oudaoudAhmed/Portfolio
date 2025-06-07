@@ -37,7 +37,7 @@ Chaque formulaire commence par une section de consentement expliquant la finalit
 
 > 📸 Exemple : introduction RGPD dans le formulaire stagiaire
 
-![RGPD](./rgpd.PNG)
+![RGPD](./image/rgpd.PNG)
 
 ---
 
@@ -50,11 +50,11 @@ Les formulaires combinent :
 
 > 📸 Exemple : évaluation des formations (notation par étoiles)
 
-![Formulaire – Évaluation en étoiles](./formulaire_satisfaction_eval.PNG)
+![Formulaire – Évaluation en étoiles](./image/formulaire_satisfaction_eval.PNG)
 
 > 📸 Exemple : questions ouvertes et échelle d’impact
 
-![Formulaire – Évaluation en étoiles](./expérience_participant.PNG)
+![Formulaire – Évaluation en étoiles](./image/expérience_participant.PNG)
 
 
 ---
