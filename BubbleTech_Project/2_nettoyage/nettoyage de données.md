@@ -56,14 +56,14 @@ Un script Python personnalisé, nommé **`data_cleaning.py`**, a été développ
 
 Ce schéma résume les étapes clés de ce pipeline automatisé :
 
-![Schéma pipeline nettoyage](./Pipeline_de_nettoyage_automatique.png)
+![Schéma pipeline nettoyage](./image/Pipeline_de_nettoyage_automatique.png)
 
 ---
 
 ## 📸 Exemple d’exécution (log réel)
 
 > Voici un aperçu d’un traitement réalisé sur le fichier `suivi des participants réponses` :
-![Schéma pipeline nettoyage](./exemple_log.PNG)
+![Schéma pipeline nettoyage](./image/exemple_log.PNG)
 
 
 ---
