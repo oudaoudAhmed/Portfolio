@@ -90,7 +90,7 @@ Chaque inscription est donc **personnalisée** selon le profil du participant, s
 Ce modèle permet à BubbleTech d’orienter les offres selon les besoins réels des inscrits.
 
 
-![Modèle relationnel – Formations](image/inscription_formation.png)
+![Modèle relationnel – Formations](./image/inscription_formation.png)
 
 
 
@@ -187,18 +187,10 @@ Par exemple, un partenariat peut :
 | `partenariat` 🔁 `disponibilite_partenaire` 🔁 `horaire_partenaire` | Jours/horaires disponibles pour intervenir ou contribuer       |
 ---
 
-### 🧾 Vue d’ensemble des tables principales
 
-| Table                      | Description                                              | Liée à                   |
-|----------------------------|----------------------------------------------------------|---------------------------|
-| `individu`                | Personne unique (nom, contact, etc.)                    | `role`, `satisfaction`, `experience` |
-| `role`                    | Décrit le rôle d’un individu                            | `type_role`, tables spécifiques       |
-| `type_role`               | Contient les types de rôles (stagiaire, bénévole...)   | `role`                    |
-| `stagiaire`, `formateur`…| Détails spécifiques selon le rôle                       | `role`                    |
-| `formation_evaluee`      | Formation suivie par un individu                        | `individu`, `evaluation_formation` |
-| `evaluation_formation`   | Retour qualitatif sur une formation                     | `formation_evaluee`, `individu` |
-| `partenaire`, `employe`  | Liens avec une organisation                             | `individu`, `organisation` |
-| `organisation`           | Donne des infos sur les partenaires institutionnels     | `partenaire`, `employe` |
+
+
+
 
 
 ---
