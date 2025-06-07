@@ -220,13 +220,13 @@ Par exemple, un partenariat peut :
 ---
 ## 📸 Exemple d’exécution (terminal)
 
-![Log d’insertion](./insertion.PNG)
+![Log d’insertion](./image/insertion.PNG)
 
 ---
 
 ## 🗂️ Exemple de contenu réel (table `individu`)
 
-![Extrait table individu](./table_individu.PNG)
+![Extrait table individu](./image/table_individu.PNG)
 
 ---
 
@@ -251,7 +251,7 @@ WHERE i.nom_complet = 'OUDAOUDOUHMOU Ahmed';
 
 📸 Résultat :
 
-![Résultat requête 1](./requete_disponibilites.PNG)
+![Résultat requête 1](./image/requete_disponibilites.PNG)
 
 ---
 
@@ -273,7 +273,7 @@ ORDER BY "Recommandation" DESC;
 
 📸 Résultat :
 
-![Résultat requête 2](./formations_mieux_perçues_globalement.PNG)
+![Résultat requête 2](./image/formations_mieux_perçues_globalement.PNG)
 
 ---
 
@@ -292,7 +292,7 @@ LIMIT 1;
 
 📸 Résultat :
 
-![Résultat requête 3](./formation_mieux_notée.PNG)
+![Résultat requête 3](./image/formation_mieux_notée.PNG)
 
 ---
 
