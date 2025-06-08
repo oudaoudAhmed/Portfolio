@@ -33,23 +33,58 @@ La base `bubbletech_db` héberge un ensemble de vues préconstruites (ex. `vue_s
 - Power BI se concentre uniquement sur la modélisation, les mesures DAX, et la visualisation.
 
   ---
-  ## 🧩 Modèle relationnel Power BI
 
-Le modèle Power BI repose entièrement sur des **vues SQL thématiques**, conçues pour simplifier la structure métier tout en gardant la logique relationnelle.
+## 🧩 Modèle relationnel Power BI
 
-🎯 Objectifs du modèle :
-- Isoler les rôles (stagiaire, formateur, etc.) dans des vues dédiées,
-- Éviter les jointures complexes dans Power BI,
-- Clarifier les relations entre identités, disponibilités, formations, et préférences.
+Le rapport Power BI repose sur un **modèle relationnel clair et segmenté par rôle**, construit à partir de **vues SQL optimisées**.  
+Chaque vue correspond à une entité métier : stagiaire, formateur, partenaire, etc., ce qui permet une lisibilité accrue, une meilleure performance et une maintenance facilitée.
 
-📸 Exemple de modèle relationnel (extrait Partenariat) :
+---
 
-![Modèle partenaire](./image/vue_partenaire.PNG)
+### 🗂️ Exemple 1 : Vue Partenaire
 
-Ce découpage par vue permet :
-- Une **clarté visuelle** dans le modèle Power BI
-- Une **performance optimisée** (moins de relations croisées)
-- Une meilleure maintenance du modèle (si une vue change, pas tout le modèle)
+![Modèle partenaire](./image/vue_partenaire.png)
 
-✅ Ce modèle rend le travail sur les visuels et les filtres **intuitif et fiable**.
+La vue `partenaire` est reliée à plusieurs entités secondaires :
+- `type` de partenariat
+- `format` de collaboration
+- `ressources partagées`
+- `disponibilité horaire`
+- `domaines d’intervention`
+
+👉 Cette structuration permet de filtrer dynamiquement les partenariats selon différents critères.
+
+---
+
+### 🗂️ Exemple 2 : Vue Stagiaire
+
+![Modèle stagiaire](./image/vue_stagiaire.png)
+
+La table `Stagiaire` centralise toutes les informations liées au profil :  
+âge, genre, modalités de stage, réseau social, etc.
+
+Elle est reliée à deux tables :
+- `stagiaire_disponibilite` : un stagiaire peut avoir plusieurs créneaux disponibles (relation 1:N)
+- `stagiaire_formation` : chaque stagiaire est associé à une formation unique (relation 1:1 dans ce projet)
+
+🔐 Certaines colonnes sensibles (linkedin, instagram…) ont volontairement été masquées dans le modèle pour illustrer la bonne gestion de la confidentialité dans le rapport.
+
+---
+
+### 🧠 Autres vues utilisées (non affichées ici) :
+
+| Vue                     | Rôle couvert                    |
+|--------------------------|---------------------------------|
+| `formateur`              | Intervenants pédagogiques       |
+| `employe`                | Équipe interne                  |
+| `benevole`               | Profils engagés ponctuellement  |
+| `satisfaction_globale`   | Résultats d’évaluation des formations |
+| `mesures`                | Table centrale DAX (KPI)        |
+
+---
+
+🎯 Ce découpage en vues thématiques assure :
+- Un modèle propre et modulaire
+- Un filtrage logique (ex : 1 stagiaire ➝ plusieurs créneaux)
+- Une séparation des responsabilités entre base de données et reporting
 
