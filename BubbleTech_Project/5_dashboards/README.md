@@ -88,3 +88,89 @@ Elle est reliée à deux tables :
 - Un filtrage logique (ex : 1 stagiaire ➝ plusieurs créneaux)
 - Une séparation des responsabilités entre base de données et reporting
 
+---
+## 🧼 Nettoyage complémentaire via Power Query
+
+La majorité du nettoyage a été réalisée en amont dans Python (standardisation, typage, unicité) et via les vues SQL optimisées.  
+Power Query a donc été utilisé uniquement pour **finaliser la préparation analytique**, avec des transformations légères :
+
+- ✂️ Suppression de colonnes inutiles à la visualisation
+- 🧾 Renommage lisible de certains champs techniques
+- 🔢 Changement de type de données (texte ➝ entier, date ➝ format court)
+- 🧹 Élimination de valeurs nulles ponctuelles.
+- ✅ Vérification de la cohérence avec les visuels DAX attendus
+
+🎯 Power Query a servi ici comme **étape de validation métier** avant la modélisation dans Power BI.
+
+---
+## 🧠 Création des indicateurs (DAX)
+
+
+Certains indicateurs clés du rapport Power BI nécessitent des calculs personnalisés, impossibles à générer directement via les visuels.  
+Pour cela, des **mesures DAX** ont été créées, notamment pour l’analyse des retours de satisfaction.
+
+
+
+### 🎯 1. Score global de satisfaction
+
+Calcule une moyenne pondérée des 4 critères principaux (contenu, clarté, pertinence, recommandation).
+
+```dax
+Score_Global_Satisfaction = 
+AVERAGEX(
+    Evaluation_Formation,
+    DIVIDE(
+        Evaluation_Formation.qualite_contenu +
+        Evaluation_Formation.clarte_explications +
+        Evaluation_Formation.pertinence_besoins +
+        Evaluation_Formation.recommandation,
+        4
+    )
+)
+```
+
+
+
+### 🏆 2. Taux de formations très bien perçues (note ≥ 4.5)
+
+Permet d’identifier la proportion de formations fortement appréciées selon le critère de recommandation.
+
+```dax
+Taux_Formation_Tres_Bien_Percees =
+DIVIDE(
+    COUNTROWS(
+        FILTER(
+            Evaluation_Formation,
+            Evaluation_Formation.recommandation >= 4.5
+        )
+    ),
+    COUNTROWS(Evaluation_Formation)
+)
+```
+
+
+
+### 📌 3. Formation la plus recommandée (TOP 1)
+
+Cette mesure permet d’identifier la formation ayant obtenu la note moyenne de recommandation la plus élevée.
+
+```dax
+Formation_Top_Recommandee = 
+CALCULATE (
+    MAXX (
+        SUMMARIZE (
+            Formation_Evaluee,
+            Formation_Evaluee.titre,
+            "MoyenneRecommandation",
+            AVERAGE(Evaluation_Formation.recommandation)
+        ),
+        [MoyenneRecommandation]
+    )
+)
+```
+
+
+
+🎯 Ces mesures sont exploitées dans les pages de dashboard pour enrichir la restitution et guider les décisions de manière plus précise.
+
+---
