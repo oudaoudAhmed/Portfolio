@@ -44,7 +44,7 @@ Le modèle Power BI repose entièrement sur des **vues SQL thématiques**, conç
 
 📸 Exemple de modèle relationnel (extrait Partenariat) :
 
-![Modèle partenaire](./image/vue_partenaire.png)
+![Modèle partenaire](./image/vue_partenaire.PNG)
 
 Ce découpage par vue permet :
 - Une **clarté visuelle** dans le modèle Power BI
