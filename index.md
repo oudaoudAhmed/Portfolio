@@ -1,3 +1,7 @@
+---
+layout: default
+title: Accueil
+---
 
 <!DOCTYPE html>
 <html lang="fr">
