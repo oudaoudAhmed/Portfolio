@@ -31,3 +31,25 @@ La base `bubbletech_db` héberge un ensemble de vues préconstruites (ex. `vue_s
 💡 Ce choix permet une **séparation claire des responsabilités** :
 - Le nettoyage et la structuration sont faits en amont, dans la base,
 - Power BI se concentre uniquement sur la modélisation, les mesures DAX, et la visualisation.
+
+  ---
+  ## 🧩 Modèle relationnel Power BI
+
+Le modèle Power BI repose entièrement sur des **vues SQL thématiques**, conçues pour simplifier la structure métier tout en gardant la logique relationnelle.
+
+🎯 Objectifs du modèle :
+- Isoler les rôles (stagiaire, formateur, etc.) dans des vues dédiées,
+- Éviter les jointures complexes dans Power BI,
+- Clarifier les relations entre identités, disponibilités, formations, et préférences.
+
+📸 Exemple de modèle relationnel (extrait Partenariat) :
+
+![Modèle partenaire](./image/vue_partenaire.png)
+
+Ce découpage par vue permet :
+- Une **clarté visuelle** dans le modèle Power BI
+- Une **performance optimisée** (moins de relations croisées)
+- Une meilleure maintenance du modèle (si une vue change, pas tout le modèle)
+
+✅ Ce modèle rend le travail sur les visuels et les filtres **intuitif et fiable**.
+
