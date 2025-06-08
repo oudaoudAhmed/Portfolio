@@ -43,7 +43,7 @@ Chaque vue correspond à une entité métier : stagiaire, formateur, partenaire,
 
 ### 🗂️ Exemple 1 : Vue Partenaire
 
-![Modèle partenaire](./image/vue_partenaire.png)
+![Modèle partenaire](./image/vue_partenaire.PNG)
 
 La vue `partenaire` est reliée à plusieurs entités secondaires :
 - `type` de partenariat
@@ -58,7 +58,7 @@ La vue `partenaire` est reliée à plusieurs entités secondaires :
 
 ### 🗂️ Exemple 2 : Vue Stagiaire
 
-![Modèle stagiaire](./image/vue_stagiaire.png)
+![Modèle stagiaire](./image/vue_stagiaire.PNG)
 
 La table `Stagiaire` centralise toutes les informations liées au profil :  
 âge, genre, modalités de stage, réseau social, etc.
