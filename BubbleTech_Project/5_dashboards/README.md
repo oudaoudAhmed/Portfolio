@@ -43,7 +43,7 @@ Chaque vue correspond à une entité métier : stagiaire, formateur, partenaire,
 
 ### 🗂️ Exemple 1 : Vue Partenaire
 
-![Modèle partenaire](./image/vue_partenaire.PNG)
+![Modèle partenaire](./image/partenaire_vue.PNG)
 
 La vue `partenaire` est reliée à plusieurs entités secondaires :
 - `type` de partenariat
