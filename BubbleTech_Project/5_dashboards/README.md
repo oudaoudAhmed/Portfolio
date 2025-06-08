@@ -169,9 +169,48 @@ CALCULATE (
 )
 ```
 
-
-
 🎯 Ces mesures sont exploitées dans les pages de dashboard pour enrichir la restitution et guider les décisions de manière plus précise.
 
+
+
 ---
+## 📊 Dashboards & Visualisation
+
+Le rapport Power BI final s’organise en plusieurs pages thématiques, chacune construite autour des indicateurs clés issus des données consolidées.  
+Chaque visuel a été pensé pour répondre à un **besoin métier précis**, en assurant une lecture fluide et un accès rapide à l’information stratégique.
+
+---
+
+### 🗂️ Pages du dashboard
+
+- **Vue d’ensemble**  
+  KPIs globaux : nombre d’acteurs, répartition par rôle, nationalité, genre, etc.
+
+- **Stagiaires**  
+  Analyse des profils, niveaux d’étude, domaines d’intérêt, disponibilités, évolution des inscriptions.
+
+- **Partenaires**  
+  Répartition par type, format de collaboration, domaine d’intervention, fréquence.
+
+- **Ressources humaines (employés / bénévoles / formateurs)**  
+  Vue synthétique de l’équipe : profils, préférences, langues, réengagement.
+
+- **Satisfaction & impact des formations**  
+  Visualisation des retours, recommandations, notes moyennes, formations les mieux perçues.
+
+---
+
+### 🧩 Choix de conception
+
+- Palette de couleurs sobre (tons neutres, bleu/vert)
+- Design centré sur la **lisibilité métier**
+- KPIs principaux mis en avant (position centrale)
+- Filtres interactifs pour naviguer par rôle, formation, période, etc.
+
+
+
+📌 Chaque page vise à fournir à la direction une **vision claire, actionable et synthétique** pour orienter ses décisions.
+
+🎯 Une fois les visuels finalisés, des captures et interprétations seront ajoutées ici pour enrichir cette section.
+
 ---
