@@ -38,5 +38,15 @@ Le dashboard comprend plusieurs pages et visuels :
 
 📸 Voir les captures dans [`dashboard/captures/`](dashboard/captures)
 
-## 📁 Structure du projet
+
+
+
+## 📎 Dataset source
+
+Kaggle – [Super Market Dataset by Aditi Rai](https://www.kaggle.com/datasets/aditirai2607/super-market-dataset)
+
+## 👤 Auteur
+
+Ahmed OUDAOUDOUHMOU  
+[LinkedIn](https://www.linkedin.com/in/ahmed-oudaoudouhmou) – [Portfolio](https://ahmedoudaoudouhmou.github.io/Portfolio)
 
