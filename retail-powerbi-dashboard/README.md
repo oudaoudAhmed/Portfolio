@@ -29,6 +29,7 @@ retail-powerbi-dashboard/
 │
 └── README.md           → Project documentation
 
+```
 ---
 
 ## 📌 Key Insights by Dashboard
