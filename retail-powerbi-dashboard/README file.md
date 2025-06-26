@@ -19,7 +19,7 @@ Le modèle de données a été structuré autour d’une table de faits `F_Sales
 - `D_Ship_mode`
 - `D_Regional_Manager`
 
-👉 Voir le schéma relationnel : [`model/model.png`](models)
+👉 Voir le schéma relationnel : [`model/model.PNG`](models)
 
 ## ⚙️ Préparation des données
 
