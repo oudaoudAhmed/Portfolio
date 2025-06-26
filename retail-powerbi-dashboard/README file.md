@@ -36,7 +36,7 @@ Le dashboard comprend plusieurs pages et visuels :
 - Analyse des marges et de la rentabilité
 - Filtres interactifs (date, segment, manager, etc.)
 
-📸 Voir les captures dans [`dashboard/captures/`](dashboard/captures)
+📸 Voir les captures dans [`Dashbords/`](Dashbords)
 
 
 
@@ -77,7 +77,7 @@ The data was structured around a central fact table `F_Sales` connected to sever
 - `D_Ship_mode`
 - `D_Regional_Manager`
 
-👉 See the schema diagram: [`model/model.png`](model/model.png)
+👉 See the schema diagram: [`/model/model.PNG`](model)
 
 ## ⚙️ Data Preparation
 
@@ -94,7 +94,7 @@ The Power BI report includes several pages and visual elements:
 - Profitability and return analysis
 - Dynamic filters: by date, region, manager, and more
 
-📸 See screenshots in [`dashboard/captures/`](dashboard/captures)
+📸 See screenshots in [`Dashbords/`](Dashbords)
 
 
 ## 📎 Dataset Source
