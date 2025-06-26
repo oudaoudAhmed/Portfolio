@@ -78,5 +78,5 @@ retail-powerbi-dashboard/
 
 ## 📎 Credits
 
-Project created by **Ahmed OUDAOUDOU**, as part of a business data analysis specialization.  
-This case study demonstrates technical capabilities in data analysis, reporting, and dashboard storytelling for real business needs.
+Project created by **Ahmed OUDAOUDOUHMOU**.  
+This project is a personal data visualization initiative designed to showcase my skills in Power BI, data modeling, and business intelligence. Using a retail dataset, I created a series of interactive dashboards focused on sales performance, customer behavior, shipping efficiency, and product profitability. The goal was to simulate real business use cases and deliver insights that would support strategic decisions across departments.
