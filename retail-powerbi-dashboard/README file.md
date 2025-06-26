@@ -19,7 +19,7 @@ Le modèle de données a été structuré autour d’une table de faits `F_Sales
 - `D_Ship_mode`
 - `D_Regional_Manager`
 
-👉 Voir le schéma relationnel : [`model/star_schema.png`](model/model.png)
+👉 Voir le schéma relationnel : (model/model.png)
 
 ## ⚙️ Préparation des données
 
@@ -77,7 +77,7 @@ The data was structured around a central fact table `F_Sales` connected to sever
 - `D_Ship_mode`
 - `D_Regional_Manager`
 
-👉 See the schema diagram: [`model/star_schema.png`](model/model.png)
+👉 See the schema diagram: [`model/model.png`](model/model.png)
 
 ## ⚙️ Data Preparation
 
