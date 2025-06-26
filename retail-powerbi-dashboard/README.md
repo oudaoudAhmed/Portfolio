@@ -1,109 +1,81 @@
-# 🛍️ Analyse des ventes et retours – Supermarket Dataset (Kaggle)
+# 🛍️ Retail Power BI Dashboard
 
-Ce projet a pour objectif d'explorer et visualiser les performances commerciales d’un supermarché à l’aide de données ouvertes disponibles sur Kaggle. Il met en œuvre la modélisation en étoile et la création de dashboards interactifs dans Power BI pour faciliter l’analyse.
+A complete business intelligence project built in Power BI, showcasing data modeling, DAX measures, and interactive dashboards for sales performance, logistics efficiency, product trends, and customer insights.
 
-## 🎯 Objectifs
+## 📊 Project Overview
 
-- Identifier les produits les plus rentables, les segments clients à valeur, et les régions les plus performantes.
-- Analyser les marges, le volume des ventes, les retours et les tendances de consommation.
-- Créer une structure relationnelle propre (modèle en étoile) pour des analyses efficaces et rapides.
-
-## 🧱 Modélisation relationnelle (Star Schema)
-
-Le modèle de données a été structuré autour d’une table de faits `F_Sales` connectée à plusieurs dimensions :
-
-- `D_Product`
-- `D_Customer`
-- `D_Date`
-- `D_Geographie`
-- `D_Ship_mode`
-- `D_Regional_Manager`
-
-👉 Voir le schéma relationnel : [`/model/model.PNG`](model)
-
-## ⚙️ Préparation des données
-
-- Suppression des doublons
-- Création d’une table `D_Date` complète avec année, mois, jour, nom du mois, etc.
-- Typage des champs
-- Création de mesures DAX : chiffre d’affaires, profit, taux de retour, top N produits, etc.
-
-## 📊 Dashboards Power BI
-
-Le dashboard comprend plusieurs pages et visuels :
-- KPIs globaux : ventes, profit, retour
-- Ventes par région / segment client / catégorie produit
-- Analyse des marges et de la rentabilité
-- Filtres interactifs (date, segment, manager, etc.)
-
-📸 Voir les captures dans [`Dashbords/`](Dashbords)
-
-
-
-
-## 📎 Dataset source
-
-Kaggle – [Super Market Dataset by Aditi Rai](https://www.kaggle.com/datasets/aditirai2607/super-market-dataset)
-
-## 👤 Auteur
-
-Ahmed OUDAOUDOUHMOU  
-[LinkedIn](https://www.linkedin.com/in/ahmed-oudaoudouhmou) – [Portfolio](https://ahmedoudaoudouhmou.github.io/Portfolio)
-
+This dashboard analyzes a retail dataset and helps answer strategic business questions using key indicators, clean data, and advanced visualizations.  
+All pages are dynamic and filterable by **date**, **category**, **segment**, and more.
 
 ---
 
+## 📂 Folder Structure
 
-## English Version
+```plaintext
+retail-powerbi-dashboard/
+│
+├── Dashboards/         → All dashboard screenshots and PBIX file
+│   ├── Overview.PNG
+│   ├── Product_Insights.PNG
+│   ├── Shipping_&_Logistics.PNG
+│   ├── Customer_Insights.PNG
+│   └── Sales_Dash.pbix
+│
+├── data/               → Excel file used as data source
+│   └── database.xlsx
+│
+├── model/              → Star schema design
+│   └── star_schema.png
+│
+└── README.md           → Project documentation
 
-# 🛍️ Sales & Returns Analysis – Supermarket Dataset (Kaggle)
+---
 
-This project aims to explore and visualize the commercial performance of a supermarket using a publicly available dataset from Kaggle. It applies a star schema data model and interactive dashboards built in Power BI to deliver clear insights.
+## 📌 Key Insights by Dashboard
 
-## 🎯 Project Objectives
+### 1. Overview
+- Global KPIs: Total Sales, Total Profit, Order Volume
+- High-level product & customer summaries
+- Clear segmentation by category and region
 
-- Identify the most profitable products, valuable customer segments, and top-performing regions.
-- Analyze profit margins, sales volumes, returns, and consumption trends.
-- Build a clean relational model (star schema) to support fast and flexible analysis.
+### 2. Product Insights
+- Identify best and worst performing products
+- Analyze product returns and profitability
+- Discount impact on profit and sales
 
-## 🧱 Data Model – Star Schema
+### 3. Shipping & Logistics
+- Track shipping delays by mode
+- Compare average shipping time and late order % 
+- Visual correlation between shipping performance and profit
 
-The data was structured around a central fact table `F_Sales` connected to several dimensions:
+### 4. Customer Insights
+- Average sales per customer
+- Segment-based analysis (Consumer, Corporate, Home Office)
+- Top 10 most profitable customers
 
-- `D_Product`
-- `D_Customer`
-- `D_Date`
-- `D_Geographie`
-- `D_Ship_mode`
-- `D_Regional_Manager`
+---
 
-👉 See the schema diagram: [`/model/model.PNG`](model)
+## ⚙️ Key Skills & Tools Demonstrated
 
-## ⚙️ Data Preparation
+- 💡 Business understanding & KPI definition
+- 📐 Data modeling (star schema)
+- 💻 Data transformation in Power Query
+- 🧮 DAX measures (CALCULATE, DIVIDE, FILTER, etc.)
+- 📊 Custom and interactive visuals
+- 📁 Multi-page Power BI reports
+- 📌 User experience with slicers and dynamic filtering
 
-- Removed duplicates and cleaned raw records
-- Created a full calendar table `D_Date` with year, month, day, weekday, etc.
-- Typed and renamed columns for consistency
-- Built custom DAX measures: total sales, profit, return rate, top N products, etc.
+---
 
-## 📊 Power BI Dashboards
+## 📥 Getting Started
 
-The Power BI report includes several pages and visual elements:
-- Global KPIs: sales, profit, returns
-- Breakdown by region, customer segment, and product category
-- Profitability and return analysis
-- Dynamic filters: by date, region, manager, and more
+1. Open `Sales_Dash.pbix` in Power BI Desktop
+2. If necessary, relink the `database.xlsx` file located in `/data/`
+3. Explore each dashboard page using the slicers and tooltips
 
-📸 See screenshots in [`Dashbords/`](Dashbords)
+---
 
+## 📎 Credits
 
-## 📎 Dataset Source
-
-Kaggle – [Super Market Dataset by Aditi Rai](https://www.kaggle.com/datasets/aditirai2607/super-market-dataset)
-
-## 👤 Author
-
-Ahmed OUDAOUDOUHMOU  
-[LinkedIn](https://www.linkedin.com/in/ahmed-oudaoudouhmou) – [Portfolio](https://ahmedoudaoudouhmou.github.io/Portfolio)
-
-
+Project created by **Ahmed OUDAOUDOU**, as part of a business data analysis specialization.  
+This case study demonstrates technical capabilities in data analysis, reporting, and dashboard storytelling for real business needs.
