@@ -1,14 +1,14 @@
 # 📊 Ahmed OUDAOUDOUHMOU –  Data Analyst
 
-Bienvenue ! Je suis Ahmed, **Data Analyst** passionné par la transformation des données en informations exploitables. Avec plus de 5 ans d'expérience dans l'analyse de données  et un stage récent à Bruxelles en BI/ETL, je conçois des solutions permettant d'automatiser les processus et d'améliorer la prise de décision.
+Bienvenue ! Je suis Ahmed, **Data Analyst** passionné par la transformation des données en informations exploitables. Avec plus de 6 ans d'expérience dans l'analyse de données, je conçois des solutions permettant d'automatiser les processus et d'améliorer la prise de décision.
 
 ---
 
 ## 🚀 À propos de moi
 
-🎓 Actuellement en spécialisation *Business Data Analysis* à l’EPHEC (Bruxelles)  
-💼 Stagiaire Data Analyst chez BubbleTech : automatisation d’un pipeline complet de traitement de données  
-🧠 Ancien Analyste de données au service des statistiques universitaires (+30 000 étudiants)  
+🎓 Diplômé en *Business Data Analysis* à l’EPHEC (Bruxelles)  
+💼 Data Analyst chez BubbleTech : automatisation d’un pipeline complet de traitement de données  
+🧠 Ancien Analyste de données au service des statistiques universitaires (+60 000 étudiants/an)  
 📍 Basé à Bruxelles – Ouvert aux opportunités Data & IA
 
 ---
